@@ -1,0 +1,20 @@
+/* .lift {
+    position: relative;
+} */
+
+.lift-door {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: all 2.5s ease-in-out;
+}
+
+.lift-door.open {
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+.lift-door.close {
+    transform: scaleX(1);
+    transform-origin: center;
+}
